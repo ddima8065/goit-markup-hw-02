@@ -1,0 +1,145 @@
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*------------------------HEAD--------------------------*/
+
+.head {
+    background-color: #ffffff;
+}
+
+
+.web-logo {
+    color: #4D5AE5;
+}
+
+
+.head-logo {
+     font-family: 'Raleway';
+     font-style: normal;
+     font-weight: 800;
+     font-size: 18px;
+     line-height: 1.33;
+    
+     display: flex;
+     align-items: center;
+     letter-spacing: 0.03em;
+     text-transform: uppercase;
+     text-decoration: none;
+     color: #2E2F42;
+}
+
+
+.head-nav-item {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: #2E2F42;
+}
+    
+
+.head-adress {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+/*------------------------MAIN--------------------------*/
+
+
+.main {
+    background-color: #2E2F42;;
+}
+
+.main-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+
+.btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+
+
+.main-section-topic {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em; 
+    color: #2E2F42;
+}
+
+
+.section-description {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+
+.photos-title, .team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.team {
+    background-color: #f4f4fd;
+}
+
+.team-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.team-text {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+
+.section-ul {
+    list-style: none;
+}
+
+
+/*------------------------FOOTER--------------------------*/
+
+.footer {
+    background-color: #2E2F42;;
+}
+
+.footer-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #E7E9FC;
+}
