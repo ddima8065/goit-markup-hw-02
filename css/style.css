@@ -2,6 +2,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    color:#434455;
 }
 
 /*------------------------HEAD--------------------------*/
@@ -17,11 +18,11 @@ body {
 
 
 .head-logo {
-     font-family: 'Raleway';
+     font-family: 'Raleway', sans-serif;
      font-style: normal;
      font-weight: 800;
      font-size: 18px;
-     line-height: 1.33;
+     line-height: 1.17;
     
      display: flex;
      align-items: center;
@@ -68,12 +69,14 @@ body {
 
 
 .btn {
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     display: flex;
     align-items: center;
     letter-spacing: 0.04em;
+    cursor: pointer;
     color: #FFFFFF;
 }
 
@@ -141,7 +144,7 @@ body {
 
 .footer-logo {
     color: #f4f4fd;
-    font-family: "Raleway";
+    font-family: "Raleway", sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
@@ -166,6 +169,7 @@ body {
 /*------------------------PORTFOLIO--------------------------*/
 
 .filter-btn {
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
