@@ -55,9 +55,11 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--primary-text-color);
+    color: var(--title-text-color);
 }
-.head-nav-item:hover
+.head-nav-item:hover {
+    color: #404bbf;
+}
 .head-nav-item:focus {
     color: #404bbf;
 }
@@ -117,7 +119,7 @@ body {
 }
 
 
-.photos-title, .team-title {
+.photos-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -129,6 +131,16 @@ body {
 
 .team {
     background-color: #f4f4fd;
+}
+
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--primary-text-color);
 }
 
 .team-name {
