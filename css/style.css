@@ -1,7 +1,7 @@
 
 :root {
-    
-
+    --title-text-color: #434455;
+    --primary-text-color: #2e2f42;
     --button-color: #4d5ae5;
 
 }
@@ -38,12 +38,11 @@ body {
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-        
-    
+    color: var(--primary-text-color);
 }
 
 
-.head-logo {
+.studio-logo {
     color: var(--button-color)
 }
 
