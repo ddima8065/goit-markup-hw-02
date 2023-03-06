@@ -7,6 +7,14 @@ body {
 
 /*------------------------HEAD--------------------------*/
 
+.link {
+    text-decoration: none;
+}
+.list {
+    list-style: none
+}
+
+
 .head {
     background-color: #ffffff;
 }
