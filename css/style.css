@@ -1,4 +1,11 @@
 
+:root {
+    
+
+    --button-color: #4d5ae5;
+
+}
+
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -11,7 +18,7 @@ body {
     text-decoration: none;
 }
 .list {
-    list-style: none
+    list-style: none;
 }
 
 
@@ -21,23 +28,23 @@ body {
 
 
 .web-logo {
-    color: #4D5AE5;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+        
+    
 }
 
 
 .head-logo {
-     font-family: 'Raleway', sans-serif;
-     font-style: normal;
-     font-weight: 800;
-     font-size: 18px;
-     line-height: 1.17;
-    
-     display: flex;
-     align-items: center;
-     letter-spacing: 0.03em;
-     text-transform: uppercase;
-     text-decoration: none;
-     color: #2E2F42;
+    color: var(--button-color)
 }
 
 
@@ -47,7 +54,6 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    text-decoration: none;
     color: #2E2F42;
 }
     
