@@ -222,7 +222,8 @@ body {
     align-items: center;
     text-align: center;
     letter-spacing: 0.04em;
-    color: #4D5AE5;
+    cursor: pointer;
+    color: var(--button-color);
 }
 
 .filter-btn:focus,
