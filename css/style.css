@@ -78,6 +78,14 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration: none;
+    color: var(--title-text-color)
+}
+
+.head-adress:hover {
+    color: #404bbf;
+}
+.head-adress:focus{
+    color: #404bbf;
 }
 
 /*------------------------MAIN--------------------------*/
